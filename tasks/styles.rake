@@ -27,7 +27,7 @@ namespace :styles do
 
   desc "Watch the styles and compile new changes"
   task :watch do
-    system "compass watch"
+    system "compass watch --sass-dir app/stylesheets/ --css-dir public/stylesheets/"
   end
   
   desc "List the styles"
