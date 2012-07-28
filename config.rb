@@ -1,5 +1,6 @@
 require './app'
 
+
 # Compass Configuration
 
 require 'grid-coordinates'
